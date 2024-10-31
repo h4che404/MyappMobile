@@ -13,12 +13,27 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tasklist.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".imccalculator.ResultIMCActivity"
+            android:exported="false" />
+        <activity
+            android:name=".imccalculator.ImcCalculatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.AplicationActivity"
+            android:exported="false" />
+        <activity
             android:name=".MenuActivity"
             android:exported="true">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

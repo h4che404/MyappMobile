@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="botton_inicial">#314797</color>
+    <color name="background_component_selected">#08847c</color>
+    <color name="background_component">#181a1b</color>
+    <color name="background_app">#1e1f22</color>
+    <color name="Buttons">#6200ee</color>
+    <color name="Felicidades">#299b5f</color>
+    <color name="Flaco">#FFEB3B</color>
+    <color name="SobrePeso">#F69602</color>
+    <color name="obesidad">#F60202</color>
 </resources>

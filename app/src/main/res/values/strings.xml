@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">MyApp</string>
+    <string name="hola">Hola</string>
+    <string name="Altura">altura</string>
+    <string name="Peso">Peso</string>
+    <string name="Edad">Edad</string>
+    <string name="Mas">Mas</string>
+    <string name="Menos">Menos</string>
+    <string name="Calcular">Calcular</string>
+    <string name="ReCalcular">ReCalcular</string>
+    <string name="tvTitle">Tu Resultado</string>
+    <string name="titulo">Normal</string>
+    <string name="error">Error</string>
+    <string name="BajoPeso">Bajo Peso</string>"
+    <string name="description_bajo_peso">Estas por debajo de lo optimo para tu peso y altura.</string>
+    <string name="SobrePeso">Sobre Peso</string>
+    <string name="description_sobre_peso">Estas por encima de lo optimo para tu peso y altura.</string>
+    <string name="Obesidad">Obesidad</string>
+    <string name="description_obesidad">AFLOJALE A LAS TORTAS GORDO DE MIERDA!.</string>
+    <string name="Normal">Normal</string>
+    <string name="description_normal">Estas en un peso normal con respecto a tu peso y altura.</string>
+    "
+
 </resources>
