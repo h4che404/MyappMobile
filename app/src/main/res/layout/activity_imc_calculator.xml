@@ -279,7 +279,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/viewPeso"
-        app:layout_constraintVertical_bias="0.8">
+        app:layout_constraintVertical_bias="0.8"
+        tools:ignore="TextSizeCheck">
 
     </Button>
 </androidx.constraintlayout.widget.ConstraintLayout>

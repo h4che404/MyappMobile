@@ -13,19 +13,17 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
-            android:name=".login.LoginActivity"
+            android:name=".tasklist.TaskListActivity"
+            android:theme="@style/Theme.TodoAPP"
             android:exported="false" />
         <activity
-            android:name=".tasklist.MainActivity"
+            android:name=".login.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".imccalculator.ResultIMCActivity"
             android:exported="false" />
         <activity
             android:name=".imccalculator.ImcCalculatorActivity"
-            android:exported="false" />
-        <activity
-            android:name=".login.AplicationActivity"
             android:exported="false" />
         <activity
             android:name=".MenuActivity"

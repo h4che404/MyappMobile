@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.juancruz.myapp.imccalculator.ImcCalculatorActivity
 import com.juancruz.myapp.login.LoginActivity
+import com.juancruz.myapp.tasklist.TaskListActivity
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,15 +24,26 @@ class MenuActivity : AppCompatActivity() {
         }
         val buttoninicioSesion = findViewById<Button>(R.id.buttonInicioSesion)
         val buttonIMCApp = findViewById<Button>(R.id.btnIMCApp)
+        val btntasklist = findViewById<Button>(R.id.btntasklist)
         buttoninicioSesion.setOnClickListener { navToHola() }
         buttonIMCApp.setOnClickListener { navToIMC() }
+        btntasklist.setOnClickListener { navToTaskList() }
     }
+
+    private fun navToTaskList() {
+        val intent = Intent(this, TaskListActivity::class.java)
+        startActivity(intent)
+    }
+
     private fun navToHola() {
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }
-    private fun navToIMC(){
+
+    private fun navToIMC() {
         val intent = Intent(this, ImcCalculatorActivity::class.java)
         startActivity(intent)
     }
+
+
 }

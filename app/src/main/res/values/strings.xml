@@ -19,6 +19,15 @@
     <string name="description_obesidad">AFLOJALE A LAS TORTAS GORDO DE MIERDA!.</string>
     <string name="Normal">Normal</string>
     <string name="description_normal">Estas en un peso normal con respecto a tu peso y altura.</string>
-    "
+    
+    <!-- TaskList -->
+    <string name="Title">Bienvenido, Juan Cruz</string>
+    <string name="tasklist_categoria">Categoria</string>
+    <string name="TaskTareas">Tareas</string>
+    <string name="NameTask">Nombre de la tarea</string>"
+    <string name="CrearTask">Crear tarea</string>
+    <string name="Business">Negocios</string>"
+    <string name="Personal">Personal</string>
+    <string name="Other">Otros</string>
 
 </resources>
